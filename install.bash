@@ -8,7 +8,7 @@ cd $HOME
 sudo mkdir -p ~/.config
 git clone https://github.com/JhonathanWolff-wms/nvim.git
 sudo cp -r $HOME/nvim/nvim ~/.config/ 
-rm $HOME/nvim
+rm -rf $HOME/nvim
 
 sudo apt upgrade -y
 wget https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-linux-x86_64.tar.gz
