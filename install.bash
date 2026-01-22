@@ -7,7 +7,7 @@ cd $HOME
 
 sudo mkdir -p ~/.config
 git clone https://github.com/JhonathanWolff-wms/nvim.git
-sudo cp -r $HOME/nvim ~/.config/ 
+sudo cp -r $HOME/nvim/nvim ~/.config/ 
 rm $HOME/nvim
 
 sudo apt upgrade -y
